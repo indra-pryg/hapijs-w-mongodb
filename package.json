@@ -1,0 +1,22 @@
+{
+  "name": "hapi-w-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi-mongodb": "^9.0.2",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "@hapi/hapi": "^20.1.2",
+    "@hapi/joi": "^17.1.1",
+    "joi-objectid": "^3.0.1"
+  }
+}
